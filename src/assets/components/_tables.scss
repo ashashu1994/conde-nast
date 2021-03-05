@@ -1,0 +1,22 @@
+.table.custom-table {
+    th {
+        line-height: 18px;
+        padding: 15px 25px;
+        border-bottom: 1px solid $border;
+        color: $light-text;
+        font-weight: $fw-400;
+        vertical-align: middle;
+    }
+    td {
+        line-height: 18px;
+        padding: 20px 25px;
+        vertical-align: middle;
+        &.padding-less {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        small {
+            color: darken($light-text, 20%);
+        }
+    }
+}
